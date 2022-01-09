@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: url('image/bg.jpg');
+    background-size: cover;
+    height: 115vh;
+}
+.container-fluid h1{
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 5px;
+    font-size: 40px;
+}
+.container-fluid p{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/* .form-horizontal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+.label{
+    padding-left: 500px;
+    color: black;
+    font-size: 20px;
+   
+}
+
+.input{
+    text-align: center;
+    display: inline;
+}
+.input input{
+    width: 30%;
+    padding: 5px 3px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    
+}
+#from{
+    margin: 5px 5px;
+}
+#to{
+    margin: 5px 10px;
+}
+.btn{
+    padding :7px 15px;
+    margin: 7px 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+}
+.button{
+    padding-left: 500px;
+    padding-top: 7px;
+}
+.button:hover{
+    padding-left: 501px;
+    padding-top: 8px;
+}
+#googleMap {
+    width: 80%;
+    height: 400px;
+    margin: 10px auto;
+}
+#output{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.container-bottom #output{
+    background-color: rgb(106, 168, 248);
+    
+}
+
